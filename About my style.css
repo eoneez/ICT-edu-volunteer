@@ -1,0 +1,243 @@
+*{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+}
+
+h1 {
+    margin : 30px auto;
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+
+  .header{
+    width:100%;
+    margin:auto;
+    display:flex;
+    height: 86px;
+    background: #1f1f1f;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+   
+  }
+  .snsArea{
+    margin-top:24px;
+  }
+
+  .logo {
+    border:none;
+    width:250px;
+    height:auto;
+    padding-left:10px;
+    
+  }
+  
+  .logo > li {list-style-type: none; float: left; margin-left:30px;}
+  
+  
+  .nav{
+    display: flex;
+    justify-content: flex-end;
+    width:calc(1280px - 300px);
+    line-height: 86px;
+  }
+  .nav > li {
+    margin-left:84px;
+  }
+  
+  .nav > li > a {
+    color: #fff;
+  }
+  
+
+
+
+.home:hover {
+    font-weight : 1000;
+}
+.about:hover{
+    font-weight : 1000;
+}
+.album:hover{
+    font-weight : 1000;
+}
+.letter:hover{
+    font-weight : 1000;
+  }
+.korean:hover{
+    font-weight: 1000;
+}
+  
+  
+.home:active  {
+    font-weight : 1000;
+    color:navy;
+}
+.about:active {
+    font-weight : 1000;
+    color:navy;
+}
+.album:active {
+    font-weight : 1000;
+    color:navy;
+}
+.letter:active {
+    font-weight : 1000;
+    color:navy;
+  }
+.letter:active {
+    font-weight : 1000;
+    color:navy;
+  }
+
+
+
+/* main contents */
+
+.main_contents {
+    width: 100%;
+    height:1500px;
+    margin-top:0;
+    padding-top : 200px;
+    
+}
+
+
+.yunjeong {
+    position : relative;
+    width : 1000px;
+    height : 600px;
+    margin : auto ;
+}
+.yeonhee { 
+    position : relative;
+    width : 1000px;
+    height : 600px;
+    margin : auto ;
+}
+.suyeon {
+    position : relative;
+    width : 1000px;
+    height : 600px;
+    margin : auto ;
+}
+.yujin { 
+    position : relative;
+    width : 1000px;
+    height : 600px;
+    margin : auto ;
+}
+
+
+.contents{
+    background-color: #f1f2f3;
+    border : none;
+    border-radius: 30px;
+    position : absolute;
+    left : 150px;
+    top : 150px;
+    height : 300px;
+    width : 700px;
+}
+
+
+
+.photo {
+    width: 200px;
+    height: 200px; 
+    border-radius: 70%;
+    overflow: hidden;
+    position: absolute;
+    z-index : 50;
+    margin:20px;
+    left : 400px;
+    
+}
+.profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.name {
+    width : 300px;
+    height: 40px;
+    position : absolute;
+    top : 80px;
+    left : 200px;
+    font-size : 30px;
+    font-weight : 700;
+    text-align: center;
+
+}
+
+.sub{
+    width : 100%;
+    position : absolute;
+    top : 150px;
+    font-size : 20px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+.more{
+    position : absolute;
+    text-align: center;
+    width : 80px;
+    height : 40px;
+    background-color: rgba(18, 19, 18, 0.726);
+    border : none;
+    border-radius : 30px;
+    box-shadow : 5px 5px 5px #130f0f3d;
+    bottom : 30px;
+    left : 310px;
+
+}
+
+.more > a{
+    line-height : 40px;
+    color : white;
+}
+
+.more:hover {
+    background-color : black;
+}
+
+.more:active {
+    background-color : black;
+}
+
+.more > a:hover {
+    color : white;
+    font-weight: 1000;
+}
+.more > a:active {
+    color : white;
+    font-weight: 1000;
+}
+
+
+
+.footer{
+    display: flex;
+    background: #1f1f1f;
+    padding:30px;
+  }
+.footer > div:first-child {
+    flex:3;
+    text-align: center;
+    color: #fff;
+  }
+.footer > div:last-child {
+    flex:9;
+    color: #fff;
+  }
+
